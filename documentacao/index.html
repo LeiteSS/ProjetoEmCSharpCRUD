@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Requisitos do Projeto</title>
+	</head>
+	<body>
+		<h1>Requisitos do Projeto</h1>
+		<hr>
+		<p>As informações a seguir se referem a uma aplicação de controle de comanda eletrônica de uma padaria.</p>
+		<p>O cliente usa uma comanda eletrônica durante suas compras na padaria. A cada produto consumido, o atendente registra na comanda (que possui uma numeração) o produto e a quantidade.</p>
+		<p>Ao passar no caixa na saída da padaria, o caixa lê os gastros da comanda, finalizando a compra. Na leitura da comanda, verifica-se o valor unitário de cada produto para calcular o valor total da compra.</p>
+		<br>
+		
+		<h3>Os principais requisitos da aplicação são:</h3>
+		<table>
+			<tr>
+				<th>Requisito: RF01 - Manter o cadastro de produtos</th>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th>Descrição:</th>
+				<td>O gerente será o responsavel por incluir, consultar, deletar e alterar os produtos no sistema.<td>
+			<tr>
+			<tr>
+				<th>Prioridade:</th>
+				<td>Essencial</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Requisito: RF02 - Manter o cadastro de comandas</th>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th>Descrição:</th>
+				<td>As comandas devem ser unicas, nada de duplicatas. Mesmo aquelas que possuem os mesmos produtos.<td>
+			<tr>
+			<tr>
+				<th>Prioridade:</th>
+				<td>Essencial</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Requisito: RF03 - Registrar produto na comanda</th>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th>Descrição:</th>
+				<td>Ao adicionar um produto na comanda deve-se selecionar o produto e informar sua quantidade.<td>
+			<tr>
+			<tr>
+				<th>Prioridade:</th>
+				<td>Essencial</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Requisito: RF04 - Finalizar compra</th>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th>Descrição:</th>
+				<td>Apresentar os dados dos produtos consumidos e o valor total da compra.<td>
+			<tr>
+			<tr>
+				<th>Prioridade:</th>
+				<td>Essencial</td>
+			</tr>
+		</table>
+		<br>
+		<h4>Entidade: Produto</h4>
+		<table>
+			<tr>
+				<th>Atributo</th>
+				<th>Tipo</th>
+				<th>Formato</th>
+				<th>Tamanho</th>
+				<th>Observações</th>
+			</tr>
+			<tr>
+				<td>código</td>
+				<td>Simples</td>
+				<td>Numero</td>
+				<td>--</td>
+				<td>Incremental</td>
+			</tr>
+			<tr>
+				<td>descrição</td>
+				<td>Simples</td>
+				<td>Texto</td>
+				<td>500</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>preço unitario</td>
+				<td>Simples</td>
+				<td>Numero</td>
+				<td>4</td>
+				<td>Formato (R$ ##,##)</td>
+			</tr>
+		</table>
+		<br>
+		<h4>Entidade: Comanda</h4>
+		<table>
+			<tr>
+				<th>Atributo</th>
+				<th>Tipo</th>
+				<th>Formato</th>
+				<th>Tamanho</th>
+				<th>Observações</th>
+			</tr>
+			<tr>
+				<td>código</td>
+				<td>Simples</td>
+				<td>Numero</td>
+				<td>Incremental</td>
+				<td></td>
+			</tr>
+		</table>
+		<br>
+		<h4>Entidade: ItemComanda</h4>
+		<table>
+			<tr>
+				<th>Atributo</th>
+				<th>Tipo</th>
+				<th>Formato</th>
+				<th>Tamanho</th>
+				<th>Observações</th>
+			</tr>
+			<tr>
+				<td>quantidade</td>
+				<td>Simples</td>
+				<td>Numero</td>
+				<td>3</td>
+				<td></td>
+			</tr>
+		</table>
+		<br>
+		<h1>Diagrama de Casos de Uso</h1>
+		<hr>
+		<img src="UseCase.png" alt="Diagrama de Casos de Uso"> 
+		<br>
+		<h1>Diagrama de Classes - Modelo de Dominio</h1>
+		<hr>
+		<img src="Main.png" alt="Diagrama de lasses"> 
+		<br>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\Produto.mdf
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\Produto_log.ldf
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\damascoDLL.dll
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\damascoDLL.pdb
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\MySql.Data.dll
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\MySql.Web.dll
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\Google.Protobuf.dll
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\Renci.SshNet.dll
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\MySql.Data.xml
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\bin\Debug\MySql.Web.xml
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\obj\Debug\damascoDLL.csprojAssemblyReference.cache
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\obj\Debug\damascoDLL.csproj.CoreCompileInputs.cache
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\obj\Debug\damascoDLL.csproj.CopyComplete
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\obj\Debug\damascoDLL.dll
+C:\Users\Lei\source\repos\padariaDamasco\damascoDLL\obj\Debug\damascoDLL.pdb
